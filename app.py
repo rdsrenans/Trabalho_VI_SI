@@ -54,7 +54,7 @@ Presence or absence of cardiovascular disease | Target Variable | cardio | binar
 # wedges, *_ = ax1.pie(overall_ratios, autopct='%1.1f%%', startangle=angle, labels=labels, explode=explode)
 #
 # """ Parâmetros da barra"""
-# gender_filtered = df[df['cardio'] == 1]
+gender_filtered = df[df['cardio'] == 1]
 # gender = gender_filtered['gender'].value_counts(normalize=True)
 # age_ratios = [gender[1], gender[2]]
 # age_labels = ['Mulher', 'Homem']
