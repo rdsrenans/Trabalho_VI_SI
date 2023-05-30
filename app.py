@@ -39,7 +39,7 @@ pdf.drawString(20 * mm, 266 * mm, 'Instituição: CRUZEIRO DO SUL - GRADUAÇÃO 
 pdf.drawString(20 * mm, 261 * mm, 'Curso: Sistemas de Informação')
 pdf.drawString(20 * mm, 251 * mm,
                'Link do dataset utilizado: https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset')
-pdf.drawString(20 * mm, 246 * mm, 'Link do meu video de apresentação: ')
+pdf.drawString(20 * mm, 246 * mm, 'Link do meu video de apresentação: https://www.loom.com/share/32fb9517fa714808a68b7432bdc1cb58')
 
 """ Grafico 1 """
 pdf.setFont('Helvetica-Bold', size=10)
@@ -184,6 +184,6 @@ plt.savefig('figure3')
 plt.cla()
 plt.clf()
 
-pdf.drawImage('figure3.png', 20 * mm, 42 * mm, width=256, height=160)  # Pega a imagem e coloca no PDF
+pdf.drawImage('figure3.png', 20 * mm, 38 * mm, width=256, height=160)  # Pega a imagem e coloca no PDF
 
 pdf.save()  # Salva o PDF
