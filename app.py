@@ -34,12 +34,12 @@ df.loc[(df.IMC >= 40), 'catimc'] = 6
 
 """ Cabeçalho """
 pdf.drawString(20 * mm, 276 * mm, 'Nome: Nome e Sobrenome')
-pdf.drawString(20 * mm, 271 * mm, 'RGM: 123456789')
+pdf.drawString(20 * mm, 271 * mm, 'RGM: ************')
 pdf.drawString(20 * mm, 266 * mm, 'Instituição: Faculda Tão Tão Distante')
 pdf.drawString(20 * mm, 261 * mm, 'Curso: Sistemas de Informação')
 pdf.drawString(20 * mm, 251 * mm,
                'Link do dataset utilizado: https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset')
-pdf.drawString(20 * mm, 246 * mm, 'Link do meu video de apresentação: https://www.umlinkaqui.com/fakedofake')
+pdf.drawString(20 * mm, 246 * mm, 'Link do meu video de apresentação: https//www.semvideo.com')
 
 """ Grafico 1 """
 pdf.setFont('Helvetica-Bold', size=10)
